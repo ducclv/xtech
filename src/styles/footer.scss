@@ -28,6 +28,7 @@
       flex-direction: column;
     }
     .content-left {
+
       .content-left-item {
         margin-top: 10px;
       }
@@ -35,6 +36,10 @@
     }
 
     .content-right {
+      width: 50%;
+      @media screen and (max-width: 992px) {
+        width: 100%;
+      }
       .content-right-first {
         display: flex;
         flex-direction: row;
