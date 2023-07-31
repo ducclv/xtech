@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-MediumItalic.eot');
+    src: local('Zierde Grotesk Medium Italic'), local('ZierdeGrotesk-MediumItalic'),
+        url('ZierdeGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-MediumItalic.woff2') format('woff2'),
+        url('ZierdeGrotesk-MediumItalic.woff') format('woff'),
+        url('ZierdeGrotesk-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-LightItalic.eot');
+    src: local('Zierde Grotesk Light Italic'), local('ZierdeGrotesk-LightItalic'),
+        url('ZierdeGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-LightItalic.woff2') format('woff2'),
+        url('ZierdeGrotesk-LightItalic.woff') format('woff'),
+        url('ZierdeGrotesk-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-Bold.eot');
+    src: local('Zierde Grotesk Bold'), local('ZierdeGrotesk-Bold'),
+        url('ZierdeGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-Bold.woff2') format('woff2'),
+        url('ZierdeGrotesk-Bold.woff') format('woff'),
+        url('ZierdeGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-Light.eot');
+    src: local('Zierde Grotesk Light'), local('ZierdeGrotesk-Light'),
+        url('ZierdeGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-Light.woff2') format('woff2'),
+        url('ZierdeGrotesk-Light.woff') format('woff'),
+        url('ZierdeGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-DemiBoldItalic.eot');
+    src: local('Zierde Grotesk DemiBold Italic'), local('ZierdeGrotesk-DemiBoldItalic'),
+        url('ZierdeGrotesk-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-DemiBoldItalic.woff2') format('woff2'),
+        url('ZierdeGrotesk-DemiBoldItalic.woff') format('woff'),
+        url('ZierdeGrotesk-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-Regular.eot');
+    src: local('Zierde Grotesk Regular'), local('ZierdeGrotesk-Regular'),
+        url('ZierdeGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-Regular.woff2') format('woff2'),
+        url('ZierdeGrotesk-Regular.woff') format('woff'),
+        url('ZierdeGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-Italic.eot');
+    src: local('Zierde Grotesk Italic'), local('ZierdeGrotesk-Italic'),
+        url('ZierdeGrotesk-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-Italic.woff2') format('woff2'),
+        url('ZierdeGrotesk-Italic.woff') format('woff'),
+        url('ZierdeGrotesk-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-SemiBoldItalic.eot');
+    src: local('Zierde Grotesk SemiBold Italic'), local('ZierdeGrotesk-SemiBoldItalic'),
+        url('ZierdeGrotesk-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-SemiBoldItalic.woff2') format('woff2'),
+        url('ZierdeGrotesk-SemiBoldItalic.woff') format('woff'),
+        url('ZierdeGrotesk-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-Medium.eot');
+    src: local('Zierde Grotesk Medium'), local('ZierdeGrotesk-Medium'),
+        url('ZierdeGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-Medium.woff2') format('woff2'),
+        url('ZierdeGrotesk-Medium.woff') format('woff'),
+        url('ZierdeGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-DemiBold.eot');
+    src: local('Zierde Grotesk DemiBold'), local('ZierdeGrotesk-DemiBold'),
+        url('ZierdeGrotesk-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-DemiBold.woff2') format('woff2'),
+        url('ZierdeGrotesk-DemiBold.woff') format('woff'),
+        url('ZierdeGrotesk-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk Ornaments';
+    src: url('ZierdeGrotesk-Ornaments.eot');
+    src: local('Zierde Grotesk Ornaments'), local('ZierdeGrotesk-Ornaments'),
+        url('ZierdeGrotesk-Ornaments.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-Ornaments.woff2') format('woff2'),
+        url('ZierdeGrotesk-Ornaments.woff') format('woff'),
+        url('ZierdeGrotesk-Ornaments.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-BoldItalic.eot');
+    src: local('Zierde Grotesk Bold Italic'), local('ZierdeGrotesk-BoldItalic'),
+        url('ZierdeGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-BoldItalic.woff2') format('woff2'),
+        url('ZierdeGrotesk-BoldItalic.woff') format('woff'),
+        url('ZierdeGrotesk-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zierde Grotesk';
+    src: url('ZierdeGrotesk-SemiBold.eot');
+    src: local('Zierde Grotesk SemiBold'), local('ZierdeGrotesk-SemiBold'),
+        url('ZierdeGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ZierdeGrotesk-SemiBold.woff2') format('woff2'),
+        url('ZierdeGrotesk-SemiBold.woff') format('woff'),
+        url('ZierdeGrotesk-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

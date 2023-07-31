@@ -1,5 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from '../routes/Home';
+import {Navigate, Route, Routes} from 'react-router-dom';
+import Home from '../routes/home/Home';
 import About from '../routes/About';
 import WebDesign from '../routes/WebDesign';
 import SEO from '../routes/SEO';
@@ -18,7 +18,8 @@ const App = () => {
     <>
       <Routes>
         <Route exact path="/" element={<Layout />}>
-          <Route index path='/' element={<Home />} />
+          <Route index element={<Navigate to="/trang-chu" />} />
+          <Route path="/trang-chu" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="web-design" element={<WebDesign />} />

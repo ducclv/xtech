@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header>
             <div className="nav-area">
-                <Link to="/" className="logo">
+                <Link to="/trang-chu" className="logo">
                     <SVG src={process.env.PUBLIC_URL + '/images/logo.svg'} style={{
                         height: "45px"
                     }}/>
