@@ -54,12 +54,12 @@ export const menuItems = [
     //     },
     //   ],
     // },
-    {title: 'Về chúng tôi', url: '/about'},
-    {title: 'Đào tạo', url: '/training'},
-    {title: 'Sản phẩm', url: '/product'},
-    {title: 'Không gian sáng tạo', url: '/creative-space'},
-    {title: 'Cộng đồng', url: '/community'},
-    {title: 'Tin tức', url: '/news'},
+    {title: 'Về chúng tôi', url: '/ve-chung-toi'},
+    {title: 'Đào tạo', url: '/dao-tao'},
+    {title: 'Sản phẩm', url: '/san-pham'},
+    {title: 'Không gian sáng tạo', url: '/khong-gian-sang-tao'},
+    {title: 'Cộng đồng', url: '/cong-dong'},
+    {title: 'Tin tức', url: '/tin-tuc'},
 
 
 ];

@@ -1,0 +1,84 @@
+.about-container {
+
+  .about-title {
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0;
+
+    .title {
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, sans-serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .description {
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, sans-serif;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 42px 121px;
+    background: rgba(243, 243, 243, 0.80);
+    .icon1 {
+      width: 104px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .content {
+      color: #E73D30;
+      font-family: Google Sans, sans-serif;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 17px;
+      text-align: justify;
+    }
+
+    .icon2 {
+      width: 104px;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  .educational-philosophy{
+    background: #F3F3F3;
+    padding-bottom: 100px;
+    .title{
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, sans-serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 36px;
+    }
+    .container{
+      background: #FFFFFF;
+      position: relative;
+      padding-left: 121px;
+      padding-bottom: 100px;
+      .people{
+        width: 90%;
+      }
+    }
+  }
+}

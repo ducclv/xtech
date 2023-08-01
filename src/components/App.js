@@ -1,6 +1,6 @@
 import {Navigate, Route, Routes} from 'react-router-dom';
 import Home from '../routes/home/Home';
-import About from '../routes/About';
+import About from '../routes/about/About';
 import WebDesign from '../routes/WebDesign';
 import SEO from '../routes/SEO';
 import Services from '../routes/Services';
@@ -20,7 +20,7 @@ const App = () => {
         <Route exact path="/" element={<Layout />}>
           <Route index element={<Navigate to="/trang-chu" />} />
           <Route path="/trang-chu" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/ve-chung-toi" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="web-design" element={<WebDesign />} />
           <Route path="web-dev" element={<WebDev />} />
