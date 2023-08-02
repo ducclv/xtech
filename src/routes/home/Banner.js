@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'better-react-carousel'
-
+import '../../styles/banner.scss';
 function Banner() {
     const data = [
         {
@@ -14,7 +14,7 @@ function Banner() {
         },
     ];
     return (
-        <div className="Banner">
+        <div className="banner">
             <Carousel cols={1} rows={1} gap={10} loop showDots>
                 {data.map((item, index) => (
                     <Carousel.Item key={index}>

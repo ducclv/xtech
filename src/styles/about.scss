@@ -1,4 +1,19 @@
 .about-container {
+  .customer-carousel {
+    background: #F3F3F3;
+    .fPimMH{
+      .dluTbn {
+        margin: 0;
+      }
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+  }
 
   .about-title {
     background: #F3F3F3;
@@ -34,6 +49,7 @@
     align-items: flex-start;
     margin: 42px 121px;
     background: rgba(243, 243, 243, 0.80);
+
     .icon1 {
       width: 104px;
       display: flex;
@@ -58,10 +74,11 @@
     }
   }
 
-  .educational-philosophy{
+  .educational-philosophy {
     background: #F3F3F3;
     padding-bottom: 100px;
-    .title{
+
+    .title {
       color: #00416B;
       text-align: center;
       font-family: UTM Aptima, sans-serif;
@@ -71,12 +88,14 @@
       line-height: normal;
       padding: 36px;
     }
-    .container{
+
+    .container {
       background: #FFFFFF;
       position: relative;
       padding-left: 121px;
       padding-bottom: 100px;
-      .people{
+
+      .people {
         width: 90%;
       }
     }

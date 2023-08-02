@@ -30,6 +30,20 @@ const Home = () => {
             title: 'Hoạt động Cộng đồng',
             description: 'Đã tổ chức từ năm 2021 - 2023'
         }];
+    const customers = [
+        {
+            image: `${process.env.PUBLIC_URL}/images/home/customer/customer-1.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/customer/customer-2.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/customer/customer-3.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/customer/customer-4.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/customer/customer-5.png`,
+        },
+
+    ];
     return (
         <div className='home-container'>
             <div className='slogan'>
@@ -116,7 +130,8 @@ const Home = () => {
                                           height={200}/>)
                                     : (<div style={{height: '200px'}}></div>)}
                             </div>
-                            <div className='item-content' style={i % 2 !== 0 ? {justifyContent: 'flex-end'}:{justifyContent:'flex-start'}}>
+                            <div className='item-content'
+                                 style={i % 2 !== 0 ? {justifyContent: 'flex-end'} : {justifyContent: 'flex-start'}}>
                                 <div className='title'>{e.title}</div>
                                 <div className='description'>{e.description}</div>
                             </div>
@@ -167,12 +182,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='customer'>
+            <div className='customer-container'>
                 <div className='customer-title'>
                     ĐỐI TÁC ĐỒNG HÀNH
                 </div>
-
-                <CustomerCarousel/>
+                <CustomerCarousel data={customers} col={5}/>
             </div>
         </div>
     );

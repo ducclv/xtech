@@ -1,6 +1,8 @@
 import '../../styles/about.scss';
 import SVG from "react-inlinesvg";
 import {useEffect, useRef, useState} from "react";
+import CustomerCarousel from "../home/CustomerCarousel";
+import HistoryTree from "./HistoryTree";
 
 const About = () => {
     const [contentHeight, setContentHeight] = useState(0);
@@ -27,8 +29,21 @@ const About = () => {
             icon2Ref.current.style.height = `${contentHeight}px`;
         }
     }, [contentHeight]);
+    const data = [
+        {
+            image: `${process.env.PUBLIC_URL}/images/about/image1.png`
+        },{
+            image: `${process.env.PUBLIC_URL}/images/about/image1.png`
+        },{
+            image: `${process.env.PUBLIC_URL}/images/about/image1.png`
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/about/image1.png`
+        },
+
+    ];
     return (
         <div className='about-container'>
+            <CustomerCarousel data={data} col={1}/>
             <div className='about-title'>
                 <div className='title'>CÂU CHUYỆN HÌNH THÀNH</div>
                 <div className='description'>“xTechEdu được tạo nên để hiện thực hóa những giấc mơ...”</div>
@@ -47,6 +62,7 @@ const About = () => {
                     <SVG src={`${process.env.PUBLIC_URL}/images/about/icon2.svg`} className='icon2'/>
                 </div>
             </div>
+            <HistoryTree />
             <div className='educational-philosophy'>
                 <div className='title'>TRIẾT LÝ GIÁO DỤC</div>
                 <div className='container'>

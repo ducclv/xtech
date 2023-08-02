@@ -1,0 +1,57 @@
+.history-tree-container {
+  padding: 0 121px;
+  display: flex;
+  flex-direction: column;
+  //position: relative;
+
+  .history-tree-item {
+    display: flex;
+    flex-direction: row;
+
+    .image-cover {
+    }
+
+    .vertical-line {
+      display: flex;
+      flex-direction: column;
+      margin: 0 20px;
+      align-items: center;
+
+      .line {
+        width: 2px;
+        height: 375px;
+        background: rgba(0, 0, 0, 0.30);
+      }
+      .line-end{
+        width: 2px;
+        height: 340px;
+        background: rgba(0, 0, 0, 0.30);
+      }
+
+    }
+
+    .history-tree-content {
+      width: 30%;
+
+      .history-tree-title {
+        color: #000;
+        font-family: UTM Aptima, sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.8px;
+      }
+
+      .history-tree-description {
+        color: #000;
+        font-family: Google Sans, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+}
