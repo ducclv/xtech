@@ -1,6 +1,7 @@
 import '../../styles/home.scss';
 import SVG from "react-inlinesvg";
 import Banner from "./Banner";
+import CustomerCarousel from "./CustomerCarousel";
 
 const Home = () => {
     const importantNumbers = [
@@ -115,7 +116,7 @@ const Home = () => {
                                           height={200}/>)
                                     : (<div style={{height: '200px'}}></div>)}
                             </div>
-                            <div className='item-content'>
+                            <div className='item-content' style={i % 2 !== 0 ? {justifyContent: 'flex-end'}:{justifyContent:'flex-start'}}>
                                 <div className='title'>{e.title}</div>
                                 <div className='description'>{e.description}</div>
                             </div>
@@ -170,9 +171,8 @@ const Home = () => {
                 <div className='customer-title'>
                     ĐỐI TÁC ĐỒNG HÀNH
                 </div>
-                <div className='customer-container'>
 
-                </div>
+                <CustomerCarousel/>
             </div>
         </div>
     );

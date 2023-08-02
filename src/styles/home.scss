@@ -32,6 +32,7 @@
   .core-value {
     width: 100%;
     margin-top: 50px;
+
     .core-value-title {
       color: #04446C;
       font-family: UTM Aptima, sans-serif;
@@ -49,8 +50,10 @@
       justify-content: space-between;
       background: #FFFFFF;
       position: relative;
+
       .core-value-content {
         margin: 50px 0 69px 128px;
+
         .title {
           color: #E73D30;
           font-family: UTM Aptima, sans-serif;
@@ -133,6 +136,7 @@
       background: #FFFFFF;
       box-shadow: 6px 11px 27px 0px rgba(0, 0, 0, 0.25);
       padding: 25px;
+
       .item {
         display: flex;
         flex-direction: column;
@@ -140,8 +144,15 @@
         align-items: center;
         text-align: center;
         width: 20%;
-        .item-content{
-          .title{
+
+        .item-content {
+          height: 130px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+
+          .title {
             color: #000;
             font-family: UTM Aptima, sans-serif;
             font-size: 30px;
@@ -149,7 +160,8 @@
             font-weight: 400;
             line-height: normal;
           }
-          .description{
+
+          .description {
             color: #000;
             text-align: center;
             font-family: Google Sans, sans-serif;
@@ -160,7 +172,7 @@
           }
         }
 
-        .item-bottom{
+        .item-bottom {
           margin-top: 20px;
         }
       }
@@ -169,7 +181,8 @@
 
   .service {
     width: 100%;
-    .service-title{
+
+    .service-title {
       margin: 42px 0;
       color: #04446C;
       text-align: center;
@@ -179,19 +192,22 @@
       font-weight: 700;
       line-height: normal;
     }
-    .service-container{
+
+    .service-container {
       background: #FFFFFF;
       box-shadow: 6px 11px 27px 0px rgba(0, 0, 0, 0.25);
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      .service-item{
+
+      .service-item {
         margin-top: 53px;
         align-items: center;
         display: flex;
         flex-direction: column;
-        .service-item-title{
+
+        .service-item-title {
           color: #04446C;
           text-align: center;
           font-family: UTM Aptima, sans-serif;
@@ -200,7 +216,8 @@
           font-weight: 700;
           line-height: normal;
         }
-        .service-item-description{
+
+        .service-item-description {
           color: #E73D30;
           text-align: center;
           font-family: Google Sans, sans-serif;
@@ -209,7 +226,8 @@
           font-weight: 400;
           line-height: normal;
         }
-        .see-more{
+
+        .see-more {
           border-radius: 30px;
           border: 3px solid #04446C;
           text-align: center;
@@ -218,7 +236,8 @@
           width: fit-content;
           padding: 5px 30px;
           cursor: pointer;
-          .text{
+
+          .text {
             color: #04446C;
             text-align: center;
             font-family: Google Sans, sans-serif;
@@ -229,17 +248,20 @@
           }
         }
       }
-      .vertical-line{
+
+      .vertical-line {
         width: 1px;
         height: 452px;
         background: #0570B5;
       }
     }
   }
-  .customer{
+
+  .customer {
     width: 100%;
-    margin: 42px 0;
-    .customer-title{
+    margin-bottom: 42px;
+
+    .customer-title {
       margin: 42px 0;
       color: #04446C;
       text-align: center;
@@ -248,6 +270,17 @@
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+    }
+
+    .customer-container {
+      .customer-carousel {
+        .item {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+      }
     }
   }
 }
