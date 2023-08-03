@@ -43,7 +43,7 @@ const Footer = () => {
                             <div className='description'>Con số quan trọng</div>
                         </div>
                     </div>
-                    <div className='content-right-second'>
+                    <div className='content-right-first'>
                         <div className='content-right-item'>
                             <div className='title'>KHÔNG GIAN SÁNG TẠO</div>
                             <div className='description'>Không gian TH Nguyễn Siêu</div>

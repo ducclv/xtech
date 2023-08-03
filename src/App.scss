@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +79,7 @@ header {
 }
 
 .menu-items a {
-  display: block;
+  //display: block;
   //font-size: inherit;
   //color: inherit;
   text-decoration: none;
@@ -89,6 +90,11 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+
 }
 
 .menu-items button {
@@ -109,7 +115,8 @@ button span {
 
 .menu-items > a, .menu-items button {
   text-align: left;
-  padding: 0.7rem 1rem;
+  //padding: 0.7rem 1rem;
+  padding-right: 1rem;
 }
 
 .menu-items a:hover,
@@ -159,7 +166,7 @@ button span {
 .content {
   //max-width: 1400px;
   margin: 0 auto;
-  min-height: 298px;
+  min-height: calc(100vh - 481px);
   //padding: 3rem 0px;
 }
 
