@@ -1,0 +1,46 @@
+.training-container {
+  background: #F3F3F3;
+  //background: #FFF;
+
+  /* shadow1 */
+  box-shadow: 6px 11px 27px 0px rgba(0, 0, 0, 0.25);
+
+  .training-activity {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .training-activity-title {
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .training-activity-subtitle {
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, serif;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+  }
+
+  .training-activity-description {
+    color: #00416B;
+    text-align: start;
+    font-family: Google Sans, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 24px;
+  }
+}

@@ -1,18 +1,8 @@
 import React from "react";
 import Carousel from 'better-react-carousel'
 import '../../styles/banner.scss';
-function Banner() {
-    const data = [
-        {
-            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
-        }, {
-            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
-        }, {
-            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
-        }, {
-            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
-        },
-    ];
+function Banner({data}) {
+
     return (
         <div className="banner">
             <Carousel cols={1} rows={1} gap={10} loop showDots>

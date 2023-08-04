@@ -2,6 +2,7 @@ import '../../styles/home.scss';
 import SVG from "react-inlinesvg";
 import Banner from "./Banner";
 import CustomerCarousel from "./CustomerCarousel";
+import ServiceContainer from "./ServiceContainer";
 
 const Home = () => {
     const importantNumbers = [
@@ -44,13 +45,24 @@ const Home = () => {
         },
 
     ];
+    const data = [
+        {
+            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
+        }, {
+            image: `${process.env.PUBLIC_URL}/images/home/banner.png`,
+        },
+    ];
     return (
         <div className='home-container'>
             <div className='slogan'>
                 <div className='slogan-title'>“LEARNING HOW TO LEARN”</div>
                 <div className='slogan-description'>Học tập hiệu quả nhất chính là học cách học</div>
             </div>
-            <Banner/>
+            <Banner data={data}/>
             <div className='core-value'>
                 <div className='core-value-title'>
                     GIÁ TRỊ CỐT LÕI
@@ -150,37 +162,7 @@ const Home = () => {
                 <div className='service-title'>
                     DỊCH VỤ VÀ ĐÀO TẠO
                 </div>
-                <div className='service-container'>
-                    <div className='service-item'>
-                        <div className='service-item-icon'>
-                            <SVG src={`${process.env.PUBLIC_URL}/images/home/service-icon-1.svg`}/>
-                        </div>
-                        <div className='service-item-title'>
-                            Tư duy Công nghệ
-                        </div>
-                        <div className='service-item-description'>
-                            Dành cho Trẻ em
-                        </div>
-                        <div className='see-more'>
-                            <div className='text'>Xem thêm</div>
-                        </div>
-                    </div>
-                    <div className='vertical-line'></div>
-                    <div className='service-item'>
-                        <div className='service-item-icon'>
-                            <SVG src={`${process.env.PUBLIC_URL}/images/home/service-icon-2.svg`}/>
-                        </div>
-                        <div className='service-item-title'>
-                            Kỹ năng Thực chiến
-                        </div>
-                        <div className='service-item-description'>
-                            Dành cho Người đi làm
-                        </div>
-                        <div className='see-more'>
-                            <div className='text'>Xem thêm</div>
-                        </div>
-                    </div>
-                </div>
+                <ServiceContainer />
             </div>
             <div className='customer-container'>
                 <div className='customer-title'>

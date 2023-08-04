@@ -12,6 +12,8 @@ import AboutWho from '../routes/AboutWho';
 import OurValues from '../routes/OurValues';
 import WebDev from '../routes/WebDev';
 import ScrollToTop from "./ScrollToTop";
+import Training from "../routes/training/Training";
+import TrainingDetail from "../routes/training/TrainingDetail";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
           <Route index element={<Navigate to="/trang-chu" />} />
           <Route path="/trang-chu" element={<Home />} />
           <Route path="/ve-chung-toi" element={<About />} />
+          <Route path="/dao-tao" element={<Training />} />
+          <Route path="/dao-tao/:id" element={<TrainingDetail />} />
           <Route path="services" element={<Services />} />
           <Route path="web-design" element={<WebDesign />} />
           <Route path="web-dev" element={<WebDev />} />

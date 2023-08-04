@@ -1,0 +1,84 @@
+.for-kids-container {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(auto-fit, 249px);
+  justify-content: center;
+  max-width: 1560px;
+  padding-bottom: 24px;
+  .for-kids-item {
+    background: #ffffff;
+    box-shadow: 0px 12px 24px -4px rgba(145, 158, 171, 0.12),
+    0px 0px 2px rgba(145, 158, 171, 0.2);
+    border-radius: 8px;
+    width: 249px;
+    //height: 307.5px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+
+    &:hover {
+      scale: 1.03;
+      transition: all 0.2s;
+    }
+
+    .cover {
+      width: 96%;
+      margin-top: 2%;
+    }
+
+    .item-title {
+      color: #000;
+      text-align: center;
+      font-family: UTM Aptima, serif;
+      font-size: 22px;
+      height: 44px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120.682%; /* 26.55px */
+      margin: 10px 0;
+    }
+
+    .item-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 5px;
+      color: #000;
+      text-align: center;
+      font-family: Google Sans, serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120.682%; /* 18.102px */
+    }
+    .item-description{
+      margin-top: 5px;
+    }
+    .register-button{
+      border-radius: 8px;
+      //border: 3px solid #E73D30;
+      border: 1px solid var(--components-button-danger-hovered-border, #E73D30);
+      background: #E73D30;
+      cursor: pointer;
+      margin-top: 10px;
+      padding: 5px;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: Google Sans, serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120.682%; /* 21.723px */
+      &:hover{
+        border-radius: 8px;
+        border: 1px solid var(--components-button-danger-hovered-border, #C86E56);
+        background: var(--components-button-danger-hovered-background, #EE2E2E);
+      }
+    }
+  }
+}
