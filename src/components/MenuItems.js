@@ -106,7 +106,7 @@ const MenuItems = ({ items, depthLevel }) => {
               <Dropdown depthLevel={depthLevel} submenus={items.submenu} dropdown={dropdown} />
             </>
         ) : (
-            <Link to={items.url}>
+            <Link to={items.url} style={active? {fontWeight:'700'}:{}}>
               {items.title.toString().toUpperCase()}
               {active && <SVG src={`${process.env.PUBLIC_URL}/images/tab-active.svg`} />}
             </Link>

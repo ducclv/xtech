@@ -1,11 +1,16 @@
 import SVG from "react-inlinesvg";
 import '../../styles/service-container.scss';
 import {useNavigate} from "react-router-dom";
+import {scrollToTop} from "../../components/ScrollToTop";
+
 const ServiceContainer = () => {
     const navigate = useNavigate();
     return (
         <div className='service-container'>
-            <div className='service-item' onClick={()=>navigate('/dao-tao/0')}>
+            <div className='service-item' onClick={() => {
+                navigate('/dao-tao/0');
+                scrollToTop();
+            }}>
                 <div className='service-item-icon'>
                     <SVG src={`${process.env.PUBLIC_URL}/images/home/service-icon-1.svg`}/>
                 </div>
@@ -20,7 +25,10 @@ const ServiceContainer = () => {
                 </div>
             </div>
             <div className='vertical-line'></div>
-            <div className='service-item' onClick={()=>navigate('/dao-tao/1')}>
+            <div className='service-item' onClick={() => {
+                navigate('/dao-tao/1')
+                scrollToTop();
+            }}>
                 <div className='service-item-icon'>
                     <SVG src={`${process.env.PUBLIC_URL}/images/home/service-icon-2.svg`}/>
                 </div>

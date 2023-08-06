@@ -1,3 +1,21 @@
-.training-detail-container{
+.training-detail-container {
+  background: #EBEBEB;
+  /* shadow1 */
+  box-shadow: 6px 11px 27px 0px rgba(0, 0, 0, 0.25);
 
+  .training-detail-banner {
+    width: 100%;
+  }
+
+  .training-detail-title {
+    background: #FFF;
+    box-shadow: 6px 11px 27px 0px rgba(0, 0, 0, 0.25);
+    color: #E73D30;
+    font-family: UTM Aptima, serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
 }

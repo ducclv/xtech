@@ -14,32 +14,34 @@ import WebDev from '../routes/WebDev';
 import ScrollToTop from "./ScrollToTop";
 import Training from "../routes/training/Training";
 import TrainingDetail from "../routes/training/TrainingDetail";
+import CreativeSpace from "../routes/creative-space/CreativeSpace";
 
 const App = () => {
-  return (
-    <>
-      <Routes>
-        <Route exact path="/" element={<Layout />}>
-          <Route index element={<Navigate to="/trang-chu" />} />
-          <Route path="/trang-chu" element={<Home />} />
-          <Route path="/ve-chung-toi" element={<About />} />
-          <Route path="/dao-tao" element={<Training />} />
-          <Route path="/dao-tao/:id" element={<TrainingDetail />} />
-          <Route path="services" element={<Services />} />
-          <Route path="web-design" element={<WebDesign />} />
-          <Route path="web-dev" element={<WebDev />} />
-          <Route path="frontend" element={<Frontend />} />
-          <Route path="node" element={<Node />} />
-          <Route path="seo" element={<SEO />} />
-          <Route path="php" element={<PHP />} />
-          <Route path="who-we-are" element={<AboutWho />} />
-          <Route path="our-values" element={<OurValues />} />
-          <Route path="*" element={<p>Not found!</p>} />
-        </Route>
-      </Routes>
-      <ScrollToTop />
-    </>
-  );
+    return (
+        <>
+            <Routes>
+                <Route exact path="/" element={<Layout/>}>
+                    <Route index element={<Navigate to="/trang-chu"/>}/>
+                    <Route path="/trang-chu" element={<Home/>}/>
+                    <Route path="/ve-chung-toi" element={<About/>}/>
+                    <Route path="/dao-tao" element={<Training/>}/>
+                    <Route path="/dao-tao/:id" element={<TrainingDetail/>}/>
+                    <Route path="/khong-gian-sang-tao" element={<CreativeSpace/>}/>
+                    <Route path="services" element={<Services/>}/>
+                    <Route path="web-design" element={<WebDesign/>}/>
+                    <Route path="web-dev" element={<WebDev/>}/>
+                    <Route path="frontend" element={<Frontend/>}/>
+                    <Route path="node" element={<Node/>}/>
+                    <Route path="seo" element={<SEO/>}/>
+                    <Route path="php" element={<PHP/>}/>
+                    <Route path="who-we-are" element={<AboutWho/>}/>
+                    <Route path="our-values" element={<OurValues/>}/>
+                    <Route path="*" element={<p>Not found!</p>}/>
+                </Route>
+            </Routes>
+            <ScrollToTop/>
+        </>
+    );
 };
 
 export default App;

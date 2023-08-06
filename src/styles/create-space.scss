@@ -1,0 +1,178 @@
+.creative-space-container {
+  background: #F3F3F3;
+
+  .creative-space-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    h1{
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    p{
+      color: #00416B;
+      text-align: center;
+      font-family: UTM Aptima, serif;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .creative-space-content{
+    background: #FFFFFF;
+    .item{
+      width: 100%;
+      position: relative;
+      .image-item{
+        width: 100%;
+        padding: 61px 96px;
+      }
+      .content-item{
+        border: 5px solid #00416B;
+        background: #00416B;
+        width: 548px;
+        position: absolute;
+        bottom: 0;
+        right: 140px;
+        padding: 28px;
+        cursor: default;
+        .title{
+          color: #FFF;
+          font-family: UTM Aptima, serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .sub-title{
+          color: #FFF;
+          font-family: Google Sans, serif;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-top: 10px;
+        }
+        .see-more{
+          display: flex;
+          border-radius: 16px;
+          background: #FED104;
+          justify-content: center;
+          width: fit-content;
+          padding: 4px 14px;
+          float: right;
+          margin-top: 32px;
+          cursor: pointer;
+          .text{
+            color: #000;
+            text-align: center;
+            font-family: Open Sans, serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120.682%; /* 18.102px */
+          }
+        }
+      }
+      .content-item-2{
+        width: 528px;
+        background: #FED104;
+        position: absolute;
+        bottom: 25px;
+        left: 144px;
+        padding: 28px;
+        .title{
+          color: #000;
+          font-family: UTM Aptima, serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .sub-title{
+          color: #000;
+          font-family: Google Sans, serif;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .see-more{
+          display: flex;
+          border-radius: 16px;
+          background: #E73D30;
+          justify-content: center;
+          width: fit-content;
+          padding: 4px 14px;
+          float: right;
+          margin-top: 32px;
+          cursor: pointer;
+          .text{
+            color: #000;
+            text-align: center;
+            font-family: Open Sans, serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120.682%; /* 18.102px */
+          }
+        }
+      }
+
+      .content-item-3{
+        background: #E73D30;
+        width: 528px;
+        position: absolute;
+        bottom: 0;
+        right: 140px;
+        padding: 28px;
+        cursor: default;
+        .title{
+          color: #FFF;
+          font-family: UTM Aptima, serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .sub-title{
+          color: #FFF;
+          font-family: Google Sans, serif;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-top: 10px;
+        }
+        .see-more{
+          display: flex;
+          border-radius: 16px;
+          background: #00416B;
+          justify-content: center;
+          width: fit-content;
+          padding: 4px 14px;
+          float: right;
+          margin-top: 32px;
+          cursor: pointer;
+          .text{
+            color: #FFFFFF;
+            text-align: center;
+            font-family: Open Sans, serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120.682%; /* 18.102px */
+          }
+        }
+      }
+    }
+  }
+}

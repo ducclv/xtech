@@ -43,7 +43,7 @@ const ForKids = () => {
     return (
         <div className='for-kids-container'>
             {data.map((e, i) => (
-                <div className='for-kids-item'>
+                <div className='for-kids-item' key={i}>
                     <img src={`${process.env.PUBLIC_URL}/${e.image}`} alt={'cover'} className='cover'/>
                     <div className='item-title'>{e.title}</div>
                     <div className='item-content'>
